@@ -1,0 +1,1730 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context="com.example.cprogramming.test.cprogramming.example.cprogramming.test.Optional">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 st Question"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:fontFamily="sans-serif-black"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="88dp">
+
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text="int _a3;"
+                    android:textColor="#fff"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="213dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text="int a_3;"
+                    android:textColor="#fff"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text="int 3_a;"
+                    android:textColor="#fff"
+                    tools:layout_editor_absoluteX="161dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text="int _3a;"
+                    android:textColor="#fff"
+                    tools:layout_editor_absoluteX="139dp"
+                    tools:layout_editor_absoluteY="212dp" />
+
+                <Button
+                    android:id="@+id/button137"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Answer" />
+
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/textView232"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2nd Question"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-black"/>
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="88dp">
+
+
+                <RadioButton
+                    android:id="@+id/radioButton5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LowerCase letters"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="213dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UpperCase letters"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CamelCase letters"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="161dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="None of the mentioned"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="139dp"
+                    tools:layout_editor_absoluteY="212dp" />
+
+                <Button
+                    android:id="@+id/button138"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Answer" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView233"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3rd Question"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-black"/>
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="88dp">
+
+
+                <RadioButton
+                    android:id="@+id/radioButton9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="int number;"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="213dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="float rate;"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="int variable_count;"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="161dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="int $main"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="139dp"
+                    tools:layout_editor_absoluteY="212dp" />
+
+                <Button
+                    android:id="@+id/button139"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Answer" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView234"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4th Question"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-black"/>
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="88dp">
+
+
+                <RadioButton
+                    android:id="@+id/radioButton13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The variable name begins with an integer"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="213dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The special character ‘-‘"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The special character ‘?'"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="161dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="All of the mentioned"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="139dp"
+                    tools:layout_editor_absoluteY="212dp" />
+
+                <Button
+                    android:id="@+id/button140"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Answer" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView235"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5th Question"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-black"/>
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="88dp">
+
+
+                <RadioButton
+                    android:id="@+id/radioButton17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="char"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="213dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="int"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="float"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="161dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="double"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="139dp"
+                    tools:layout_editor_absoluteY="212dp" />
+
+                <Button
+                    android:id="@+id/button141"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Answer" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView236"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6th Question"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-black"/>
+
+            <RadioGroup
+                android:id="@+id/radioGroup6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="88dp">
+
+
+                <RadioButton
+                    android:id="@+id/radioButton21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4 Bytes"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="213dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8 Bytes"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="16 Bytes"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="161dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="32 Bytes"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="139dp"
+                    tools:layout_editor_absoluteY="212dp" />
+
+                <Button
+                    android:id="@+id/button142"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Answer" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView237"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7th Question"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-black"/>
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="88dp">
+
+
+                <RadioButton
+                    android:id="@+id/radioButton25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3.75"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="213dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Depends on compiler"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="24"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="161dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="139dp"
+                    tools:layout_editor_absoluteY="212dp" />
+
+                <Button
+                    android:id="@+id/button143"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Answer" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView238"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8th Question"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-black"/>
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="88dp">
+
+
+                <RadioButton
+                    android:id="@+id/radioButton29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="char *str = “Best C programming classes by Sanfoundry”;"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="213dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="char str[] = “Best C programming classes by Sanfoundry”;"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="char str[20] = “Best C programming classes by Sanfoundry”;"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="161dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="char[] str = “Best C programming classes by Sanfoundry”;"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="139dp"
+                    tools:layout_editor_absoluteY="212dp" />
+
+                <Button
+                    android:id="@+id/button144"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Answer" />
+
+            </RadioGroup>
+            <TextView
+                android:id="@+id/textView239"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9th Question"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-black"/>
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="88dp">
+
+
+                <RadioButton
+                    android:id="@+id/radioButton33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="char a[10];"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="213dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="char a[] = {‘1’,‘2’,‘3’,'4’};"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="char *str;"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="161dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="char a;"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="139dp"
+                    tools:layout_editor_absoluteY="212dp" />
+
+                <Button
+                    android:id="@+id/button145"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Answer" />
+
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/textView240"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10th Question"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-black"/>
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="88dp">
+
+
+                <RadioButton
+                    android:id="@+id/radioButton37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="structure"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="213dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="long"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="string"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="161dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="float"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="139dp"
+                    tools:layout_editor_absoluteY="212dp" />
+
+                <Button
+                    android:id="@+id/button146"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Answer" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView241"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11th Question"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-black"/>
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="88dp">
+
+
+                <RadioButton
+                    android:id="@+id/radioButton41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="!="
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="213dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="=="
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="||"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="161dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="="
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="139dp"
+                    tools:layout_editor_absoluteY="212dp" />
+
+                <Button
+                    android:id="@+id/button147"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Answer" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView242"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12th Question"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-black"/>
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="88dp">
+
+
+                <RadioButton
+                    android:id="@+id/radioButton45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="a=1, b=1"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="213dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="a=2, b=1"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="a=1, b=2"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="161dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="a=2, b=2"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="139dp"
+                    tools:layout_editor_absoluteY="212dp" />
+
+                <Button
+                    android:id="@+id/button148"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Answer" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView243"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13th Question"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-black"/>
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="88dp">
+
+
+                <RadioButton
+                    android:id="@+id/radioButton49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Syntax Error"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="213dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="c = 1"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="c = 2"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="161dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="c = 3"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="139dp"
+                    tools:layout_editor_absoluteY="212dp" />
+
+                <Button
+                    android:id="@+id/button149"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Answer" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView244"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14th Question"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-black" />
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="88dp">
+
+
+                <RadioButton
+                    android:id="@+id/radioButton53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="false, 0"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="213dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="true, 0"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="true, 10"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="161dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="compile time error"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="139dp"
+                    tools:layout_editor_absoluteY="212dp" />
+
+                <Button
+                    android:id="@+id/button150"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Answer" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView245"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15th Question"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-black"/>
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="88dp">
+
+
+                <RadioButton
+                    android:id="@+id/radioButton57"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="break;"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="213dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton58"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="exit(0)"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton59"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="abort()"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="161dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton60"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="terminate"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="139dp"
+                    tools:layout_editor_absoluteY="212dp" />
+
+                <Button
+                    android:id="@+id/button151"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Answer" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView246"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="16th Question"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-black"/>
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="88dp">
+
+
+                <RadioButton
+                    android:id="@+id/radioButton61"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="213dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton62"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton63"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="161dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton64"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="139dp"
+                    tools:layout_editor_absoluteY="212dp" />
+
+                <Button
+                    android:id="@+id/button152"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Answer" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView247"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="17th Question"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-black"/>
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="88dp">
+
+
+                <RadioButton
+                    android:id="@+id/radioButton65"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="void"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="213dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton66"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="int"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton67"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="double"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="161dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton68"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="short int"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="139dp"
+                    tools:layout_editor_absoluteY="212dp" />
+
+                <Button
+                    android:id="@+id/button153"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Answer" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView248"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18th Question"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-black"/>
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="88dp">
+
+
+                <RadioButton
+                    android:id="@+id/radioButton69"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="true"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="213dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton70"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="false"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton71"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="depends on the compiler"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="161dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton72"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="depends on the standard"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="139dp"
+                    tools:layout_editor_absoluteY="212dp" />
+
+                <Button
+                    android:id="@+id/button154"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Answer" />
+
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/textView249"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="19th Question"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-black"/>
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="88dp">
+
+
+                <RadioButton
+                    android:id="@+id/radioButton73"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Preprocessor directive"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="213dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton74"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Inclusion directive"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton75"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="File inclusion directive"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="161dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton76"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="None of the mentioned"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="139dp"
+                    tools:layout_editor_absoluteY="212dp" />
+
+                <Button
+                    android:id="@+id/button155"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Answer" />
+
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/textView250"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20th Question"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-black"/>
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="88dp">
+
+
+                <RadioButton
+                    android:id="@+id/radioButton77"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="true"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="213dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton78"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="false"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton79"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Depends on the standard"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="161dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton80"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Depends on the platform"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="139dp"
+                    tools:layout_editor_absoluteY="212dp" />
+
+                <Button
+                    android:id="@+id/button156"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Answer" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView251"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="21st Question"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-black"/>
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="88dp">
+
+
+                <RadioButton
+                    android:id="@+id/radioButton81"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="#ifdef"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="213dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton82"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="#define"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton83"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="#endif"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="161dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton84"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="All of The Mention"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="139dp"
+                    tools:layout_editor_absoluteY="212dp" />
+
+                <Button
+                    android:id="@+id/button157"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Answer" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView252"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="22nd Question"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-black"/>
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="88dp">
+
+
+                <RadioButton
+                    android:id="@+id/radioButton85"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Before main()"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="213dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton86"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Before any scanf/printf"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton87"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="After main()"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="161dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton88"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="It can be written anywhere"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="139dp"
+                    tools:layout_editor_absoluteY="212dp" />
+
+                <Button
+                    android:id="@+id/button158"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Answer" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView253"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="23rd Question"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-black"/>
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="88dp">
+
+
+                <RadioButton
+                    android:id="@+id/radioButton89"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The predefined location then the current directory"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="213dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton90"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The current directory then the predefined location"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton91"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The predefined location only"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="161dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton92"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The current directory location"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="139dp"
+                    tools:layout_editor_absoluteY="212dp" />
+
+                <Button
+                    android:id="@+id/button159"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Answer" />
+
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/textView254"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="24th Question"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-black"/>
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="88dp">
+
+
+                <RadioButton
+                    android:id="@+id/radioButton93"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="True"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="213dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton94"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Compile time error"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton95"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="False"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="161dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton96"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Depends on the compiler"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="139dp"
+                    tools:layout_editor_absoluteY="212dp" />
+
+                <Button
+                    android:id="@+id/button160"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Answer" />
+
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/textView255"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25th Question"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-black"/>
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="88dp">
+
+
+                <RadioButton
+                    android:id="@+id/radioButton97"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="First member in the union"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="213dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton98"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Last member in the union"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton99"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Biggest member in the union"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="161dp"
+                    tools:layout_editor_absoluteY="166dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton100"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sum of the sizes of all members"
+                    android:textColor="#fff"
+                    android:buttonTint="@color/colorPrimary"
+                    tools:layout_editor_absoluteX="139dp"
+                    tools:layout_editor_absoluteY="212dp" />
+
+                <Button
+                    android:id="@+id/button161"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Answer" />
+
+            </RadioGroup>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context="com.example.cprogramming.test.cprogramming.example.cprogramming.test.P24">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="13dp"
+        android:text="nCr and nPr"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:fontFamily="cursive" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Source Code"
+        android:layout_marginStart="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="141dp"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Output"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="172dp"
+        android:textColor="#000"
+        android:background="#fff"
+        android:textSize="15dp"
+        tools:ignore="MissingConstraints" />
+    </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
