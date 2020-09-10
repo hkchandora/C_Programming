@@ -80,6 +80,7 @@
                                               <map>
                                                 <entry key="color" value="000000" />
                                                 <entry key="imagePath" value="F:\AndroidStudioProjects\C Programming\app\src\main\res\drawable\splash.png" />
+                                                <entry key="scalingPercent" value="98" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -114,6 +115,7 @@
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="ffffff" />
                                       <entry key="legacyIconShape" value="CIRCLE" />
+                                      <entry key="previewDensity" value="XXXHIGH" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -279,6 +281,11 @@
                                       </entry>
                                     </map>
                                   </option>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="previewDensity" value="XXXHIGH" />
+                                    </map>
+                                  </option>
                                 </PersistentState>
                               </value>
                             </entry>
@@ -307,7 +314,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material/icons/materialicons/developer_mode/baseline_developer_mode_24.xml" />
+                                      <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material/icons/materialicons/contact_support/baseline_contact_support_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -317,7 +324,7 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_program" />
+                            <entry key="outputName" value="ic_question" />
                             <entry key="sourceFile" value="C:\Users\Himansh" />
                           </map>
                         </option>

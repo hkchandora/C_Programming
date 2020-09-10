@@ -4,16 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="cprogramming.example.cprogramming.test.Tutorials"
-    android:background="#000">
+    tools:context="cprogramming.example.cprogramming.test.Tutorials">
 
-    <ListView
+
+    <android.support.v7.widget.RecyclerView
         android:id="@+id/listView1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#fff"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp"
-        tools:ignore="MissingConstraints" />
+        android:clipToPadding="false"
+        android:paddingTop="8dp"
+        app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+        tools:listitem="@layout/item_line"/>
+
 
 </android.support.constraint.ConstraintLayout>

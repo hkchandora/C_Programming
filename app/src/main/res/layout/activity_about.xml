@@ -1,152 +1,305 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000"
+    android:background="#030725"
     tools:context=".About">
-
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="0dp">
+        android:layout_height="match_parent">
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="wrap_content">
 
             <TextView
-                android:id="@+id/textView"
-                android:layout_width="match_parent"
-                android:layout_height="57dp"
-                android:layout_marginTop="20dp"
-                android:fontFamily="cursive"
-                android:text="C Programming"
-                android:textAlignment="center"
-                android:textColor="#fff"
-                android:textSize="40dp"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteX="0dp" />
-
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="match_parent"
+                android:id="@+id/developer_txt"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:fontFamily="cursive"
-                android:text="TextView"
-                android:textAlignment="center"
-                android:textColor="#fff"
-                android:textSize="25dp"
-                android:textStyle="bold"
-                app:layout_constraintTop_toBottomOf="@+id/textView"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteX="0dp" />
-
-            <TextView
-                android:id="@+id/textView4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
-                android:text="TextView"
-                android:textColor="#fff"
-                android:textSize="15dp"
-                app:layout_constraintTop_toBottomOf="@+id/textView2"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteX="44dp" />
-
-            <TextView
-                android:id="@+id/textView203"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
                 android:layout_marginTop="30dp"
-                android:fontFamily="cursive"
-                android:text="Contact Me :-"
-                android:textAlignment="center"
-                android:textColor="#fff"
-                android:textSize="25dp"
-                android:textStyle="bold"
-                app:layout_constraintTop_toBottomOf="@+id/textView4"
-                tools:ignore="MissingConstraints,NotSibling"
-                tools:layout_editor_absoluteX="153dp" />
+                android:text="Developer :"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/name_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/developer_txt"
+                android:layout_marginStart="40dp"
+                android:text="Himanshu Kumawat"
+                android:textColor="@color/white"
+                android:textSize="32dp"
+                android:textStyle="bold" />
 
 
-            <ScrollView
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/name_txt"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="155dp"
+                android:src="@android:drawable/stat_sys_phone_call" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/hire_me_btn"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/name_txt"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="22dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Hire Me"
+                    android:textColor="@color/black" />
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/about_developer_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hire_me_btn"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="About Developer"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/about_linear_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                tools:layout_editor_absoluteX="93dp"
-                tools:layout_editor_absoluteY="0dp">
+                android:layout_below="@id/about_developer_txt"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="14dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="14dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Location"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rajasthan, India"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Hobbies"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Codding &amp; Fitness"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/skills_developer_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/about_linear_layout"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="Skills"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/skills_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/skills_developer_txt"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="14dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="14dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Technical"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Android, Flutter &amp; Web"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Languages"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Java, javascript &amp; xml"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Database"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Firebase &amp; SQLite"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Framework"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Android Studio &amp; Flutter"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/follow_me_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/skills_linear_layout"
+                android:layout_margin="20dp"
+                android:text="Follow Me"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/follow_me_txt"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:scrollbars="horizontal">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:textAlignment="center">
+                    android:padding="10dp">
 
-                    <Button
-                        android:id="@+id/button165"
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/github"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginTop="20dp"
-                        android:background="@drawable/gmail"
-                        android:text=""
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/textView203" />
+                        android:background="@drawable/color_full_bg"
+                        android:src="@drawable/github" />
 
-                    <Button
-                        android:id="@+id/button166"
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/linkedin"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:layout_marginStart="10dp"
-                        android:layout_marginTop="20dp"
-                        android:background="@drawable/facebook"
-                        android:text=""
-                        app:layout_constraintStart_toEndOf="@+id/button165"
-                        app:layout_constraintTop_toBottomOf="@+id/textView203" />
+                        android:background="@drawable/color_full_bg"
+                        android:src="@drawable/linkedin" />
 
-                    <Button
-                        android:id="@+id/button168"
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/instagram"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:layout_marginStart="10dp"
-                        android:layout_marginTop="20dp"
-                        android:background="@drawable/insta"
-                        android:text=""
-                        app:layout_constraintStart_toEndOf="@+id/button166"
-                        app:layout_constraintTop_toBottomOf="@+id/textView203" />
+                        android:background="@drawable/color_full_bg"
+                        android:src="@drawable/instagram" />
 
-                    <Button
-                        android:id="@+id/button169"
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/whatsapp"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:layout_marginStart="10dp"
-                        android:layout_marginTop="20dp"
-                        android:background="@drawable/twitter"
-                        android:text=""
-                        app:layout_constraintStart_toEndOf="@+id/button168"
-                        app:layout_constraintTop_toBottomOf="@+id/textView203" />
+                        android:background="@drawable/color_full_bg"
+                        android:src="@drawable/whatsapp" />
 
-                    <Button
-                        android:id="@+id/button9"
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/twitter"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:layout_marginStart="10dp"
-                        android:layout_marginTop="20dp"
-                        android:background="@drawable/in"
-                        android:text=""
-                        app:layout_constraintStart_toEndOf="@+id/button169"
-                        app:layout_constraintTop_toBottomOf="@+id/textView203" />
+                        android:background="@drawable/color_full_bg"
+                        android:src="@drawable/twitter" />
 
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/facebook"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="10dp"
+                        android:background="@drawable/color_full_bg"
+                        android:src="@drawable/facebook" />
                 </LinearLayout>
-            </ScrollView>
-        </LinearLayout>
+            </HorizontalScrollView>
+        </RelativeLayout>
     </ScrollView>
-
-
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
