@@ -218,7 +218,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
             public void run() {
                 toast.show();
             }
-        }, 0, 1000);
+        }, 0, 1500);
         new Timer().schedule(new TimerTask() {
             @Override
             public void run() {
@@ -257,8 +257,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
-                showMyToast(toast, 1000);
+                showMyToast(toast, 1500);
 
             } else {
                 Context context = getApplicationContext();
@@ -271,8 +270,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
-                showMyToast(toast, 1000);
+                showMyToast(toast, 1500);
             }
         }
 
@@ -290,7 +288,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             } else {
                 Context context = getApplicationContext();
@@ -303,8 +301,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
-
+                showMyToast(toast, 1500);
             }
         }
 
@@ -322,7 +319,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             } else {
                 Context context = getApplicationContext();
@@ -335,7 +332,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             }
         }
@@ -354,7 +351,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             } else {
                 Context context = getApplicationContext();
@@ -367,7 +364,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             }
         }
@@ -386,7 +383,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             } else {
                 Context context = getApplicationContext();
@@ -399,8 +396,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
-
+                showMyToast(toast, 1500);
             }
 
         }
@@ -419,7 +415,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             } else {
                 Context context = getApplicationContext();
@@ -432,7 +428,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             }
         }
@@ -451,7 +447,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             } else {
                 Context context = getApplicationContext();
@@ -464,7 +460,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             }
         }
@@ -483,7 +479,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             } else {
                 Context context = getApplicationContext();
@@ -496,7 +492,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             }
         }
@@ -515,7 +511,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             } else {
                 Context context = getApplicationContext();
@@ -528,7 +524,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             }
         }
@@ -547,7 +543,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             } else {
                 Context context = getApplicationContext();
@@ -560,7 +556,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             }
         }
@@ -579,7 +575,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             } else {
                 Context context = getApplicationContext();
@@ -592,7 +588,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             }
         }
@@ -611,7 +607,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             } else {
                 Context context = getApplicationContext();
@@ -624,7 +620,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             }
         }
@@ -643,7 +639,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             } else {
                 Context context = getApplicationContext();
@@ -656,7 +652,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             }
         }
@@ -675,7 +671,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             } else {
                 Context context = getApplicationContext();
@@ -688,7 +684,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             }
         }
@@ -707,7 +703,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             } else {
                 Context context = getApplicationContext();
@@ -720,7 +716,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             }
         }
@@ -739,7 +735,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             } else {
                 Context context = getApplicationContext();
@@ -752,7 +748,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             }
         }
@@ -771,7 +767,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             } else {
                 Context context = getApplicationContext();
@@ -784,7 +780,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             }
         }
@@ -803,7 +799,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             } else {
                 Context context = getApplicationContext();
@@ -816,7 +812,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             }
         }
@@ -835,7 +831,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             } else {
                 Context context = getApplicationContext();
@@ -848,7 +844,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             }
         }
@@ -867,7 +863,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             } else {
                 Context context = getApplicationContext();
@@ -880,7 +876,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             }
         }
@@ -899,7 +895,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             } else {
                 Context context = getApplicationContext();
@@ -912,7 +908,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             }
         }
@@ -931,7 +927,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             } else {
                 Context context = getApplicationContext();
@@ -944,7 +940,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             }
         }
@@ -963,7 +959,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             } else {
                 Context context = getApplicationContext();
@@ -976,7 +972,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             }
         }
@@ -995,7 +991,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             } else {
                 Context context = getApplicationContext();
@@ -1008,7 +1004,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             }
         }
@@ -1027,7 +1023,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             } else {
                 Context context = getApplicationContext();
@@ -1040,7 +1036,7 @@ public class Optional extends AppCompatActivity implements View.OnClickListener 
                 toast.setView(toastRoot);
                 toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM,0,0);
                 toast.setDuration(Toast.LENGTH_LONG);
-                toast.show();
+                showMyToast(toast, 1500);
 
             }
         }

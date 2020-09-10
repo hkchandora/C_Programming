@@ -78,9 +78,9 @@ public class Setting extends AppCompatActivity {
                 if (position == 3){
                     Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
                     sharingIntent.setType("text/plain");
-                    String shareBody = "This is C Programming App.\nHere, We Easy to Learn C Programming Language.\n" +
+                    String shareBody = "This is C Programming App.\nHere, We can Easy to Learn C Programming Language.\n" +
                             "Best Proper Tutorials, 100+ Programs with output, And Many Questions-Answers & Exam Questions also.\n" +
-                            "Download it :-\n" +
+                            "Download it :-\n\n" +
                             "https://play.google.com/store/apps/details?id=cprogramming.example.cprogramming.test";
                     String shareSub = "C Programming App";
                     sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, shareSub);
@@ -115,9 +115,9 @@ public class Setting extends AppCompatActivity {
             case R.id.share:
                 Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
                 sharingIntent.setType("text/plain");
-                String shareBody = "This is C Programming App.\nHere, We Easy to Learn C Programming Language.\n" +
+                String shareBody = "This is C Programming App.\nHere, We can Easy to Learn C Programming Language.\n" +
                         "Best Proper Tutorials, 100+ Programs with output, And Many Questions-Answers & Exam Questions also.\n" +
-                        "Download it :-\n" +
+                        "Download it :-\n\n" +
                         "https://play.google.com/store/apps/details?id=cprogramming.example.cprogramming.test";
                 String shareSub = "C Programming App";
                 sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, shareSub);

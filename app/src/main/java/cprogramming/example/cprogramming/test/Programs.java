@@ -1,22 +1,20 @@
 package cprogramming.example.cprogramming.test;
 
-import android.app.SearchManager;
 import android.content.ActivityNotFoundException;
-import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.SearchView;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import cprogramming.example.cprogramming.test.Program.*;
 
 
 public class Programs extends AppCompatActivity {
@@ -548,9 +546,9 @@ public class Programs extends AppCompatActivity {
             case R.id.share:
                 Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
                 sharingIntent.setType("text/plain");
-                String shareBody = "This is C Programming App.\nHere, We Easy to Learn C Programming Language.\n" +
+                String shareBody = "This is C Programming App.\nHere, We can Easy to Learn C Programming Language.\n" +
                         "Best Proper Tutorials, 100+ Programs with output, And Many Questions-Answers & Exam Questions also.\n" +
-                        "Download it :-\n" +
+                        "Download it :-\n\n" +
                         "https://play.google.com/store/apps/details?id=cprogramming.example.cprogramming.test";
                 String shareSub = "C Programming App";
                 sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, shareSub);
@@ -590,12 +588,11 @@ public class Programs extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
 
         getMenuInflater().inflate(R.menu.menu_example, menu);
-
-        // Inflate the options menu from XML
+        return true;
+        /* Inflate the options menu from XML
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu, menu);
 
-        //return true;
 
         SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
         SearchView searchView = (SearchView) menu.findItem(R.id.action_bar1).getActionView();
@@ -612,6 +609,6 @@ public class Programs extends AppCompatActivity {
                 return true;
             }
         });
-        return super.onCreateOptionsMenu(menu);
+        return super.onCreateOptionsMenu(menu);*/
     }
 }

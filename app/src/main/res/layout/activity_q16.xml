@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000"
-    tools:context="cprogramming.example.cprogramming.test.Q16">
+    tools:context="cprogramming.example.cprogramming.test.Question.Q16">
 
     <ExpandableListView
         android:id="@+id/expandableListView"

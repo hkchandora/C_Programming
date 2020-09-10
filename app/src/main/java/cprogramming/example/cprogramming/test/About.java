@@ -18,7 +18,7 @@ import java.util.List;
 
 public class About extends AppCompatActivity implements View.OnClickListener {
     TextView t1,t2,t3;
-    Button b1,b2,b3,b4;
+    Button b1,b2,b3,b4,b5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +37,8 @@ public class About extends AppCompatActivity implements View.OnClickListener {
         b3.setOnClickListener(this);
         b4 = (Button) findViewById(R.id.button169);
         b4.setOnClickListener(this);
+        b5 = (Button) findViewById(R.id.button9);
+        b5.setOnClickListener(this);
 
 
         t2.setText("Developed and Designed By :\nHimanshu Kumawat");
@@ -76,15 +78,13 @@ public class About extends AppCompatActivity implements View.OnClickListener {
 
         }
         if(v == b2){
-            final String urlFb = "fb://page/855484367880558";
+            final String urlFb = "fb://page/1504945662900284";
             Intent intent = new Intent(Intent.ACTION_VIEW);
             intent.setData(Uri.parse(urlFb));
             final PackageManager packageManager = getPackageManager();
             List<ResolveInfo> list = packageManager.queryIntentActivities(intent, PackageManager.MATCH_DEFAULT_ONLY);
-            if (list.size() == 0) {
-                final String urlBrowser = "https://www.facebook.com/himanshchandora";
-                intent.setData(Uri.parse(urlBrowser));
-            }
+            final String urlBrowser = "https://www.facebook.com/himanshchandora";
+            intent.setData(Uri.parse(urlBrowser));
             startActivity(intent);
 
         }
@@ -110,6 +110,11 @@ public class About extends AppCompatActivity implements View.OnClickListener {
                 twitterIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/"+USER_ID));
             }
             this.startActivity(twitterIntent);
+        }
+        if(v == b5){
+            String USER_INSTA = "in/himanshu-chandora-b802bb16b/";
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.linkedin.com/"+USER_INSTA)));
+
         }
     }
 }

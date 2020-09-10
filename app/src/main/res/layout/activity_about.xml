@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".About"
-    android:background="#000">
+    android:background="#000"
+    tools:context=".About">
 
 
     <ScrollView
@@ -75,57 +75,78 @@
                 tools:ignore="MissingConstraints,NotSibling"
                 tools:layout_editor_absoluteX="153dp" />
 
-            <LinearLayout
+
+            <ScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:textAlignment="center">
+                tools:layout_editor_absoluteX="93dp"
+                tools:layout_editor_absoluteY="0dp">
 
-            <Button
-                android:id="@+id/button165"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:layout_marginStart="30dp"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/gmail"
-                android:text=""
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView203" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:textAlignment="center">
 
-            <Button
-                android:id="@+id/button166"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/facebook"
-                android:text=""
-                app:layout_constraintStart_toEndOf="@+id/button165"
-                app:layout_constraintTop_toBottomOf="@+id/textView203" />
+                    <Button
+                        android:id="@+id/button165"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/gmail"
+                        android:text=""
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView203" />
 
-            <Button
-                android:id="@+id/button168"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/insta"
-                android:text=""
-                app:layout_constraintStart_toEndOf="@+id/button166"
-                app:layout_constraintTop_toBottomOf="@+id/textView203" />
+                    <Button
+                        android:id="@+id/button166"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/facebook"
+                        android:text=""
+                        app:layout_constraintStart_toEndOf="@+id/button165"
+                        app:layout_constraintTop_toBottomOf="@+id/textView203" />
 
-            <Button
-                android:id="@+id/button169"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/twitter"
-                android:text=""
-                app:layout_constraintStart_toEndOf="@+id/button168"
-                app:layout_constraintTop_toBottomOf="@+id/textView203" />
-            </LinearLayout>
+                    <Button
+                        android:id="@+id/button168"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/insta"
+                        android:text=""
+                        app:layout_constraintStart_toEndOf="@+id/button166"
+                        app:layout_constraintTop_toBottomOf="@+id/textView203" />
+
+                    <Button
+                        android:id="@+id/button169"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/twitter"
+                        android:text=""
+                        app:layout_constraintStart_toEndOf="@+id/button168"
+                        app:layout_constraintTop_toBottomOf="@+id/textView203" />
+
+                    <Button
+                        android:id="@+id/button9"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/in"
+                        android:text=""
+                        app:layout_constraintStart_toEndOf="@+id/button169"
+                        app:layout_constraintTop_toBottomOf="@+id/textView203" />
+
+                </LinearLayout>
+            </ScrollView>
         </LinearLayout>
     </ScrollView>
+
 
 </android.support.constraint.ConstraintLayout>

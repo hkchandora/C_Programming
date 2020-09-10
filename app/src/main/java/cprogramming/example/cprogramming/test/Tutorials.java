@@ -14,6 +14,33 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import cprogramming.example.cprogramming.test.Tutorial.T1;
+import cprogramming.example.cprogramming.test.Tutorial.T10;
+import cprogramming.example.cprogramming.test.Tutorial.T11;
+import cprogramming.example.cprogramming.test.Tutorial.T12;
+import cprogramming.example.cprogramming.test.Tutorial.T13;
+import cprogramming.example.cprogramming.test.Tutorial.T14;
+import cprogramming.example.cprogramming.test.Tutorial.T15;
+import cprogramming.example.cprogramming.test.Tutorial.T16;
+import cprogramming.example.cprogramming.test.Tutorial.T17;
+import cprogramming.example.cprogramming.test.Tutorial.T18;
+import cprogramming.example.cprogramming.test.Tutorial.T19;
+import cprogramming.example.cprogramming.test.Tutorial.T2;
+import cprogramming.example.cprogramming.test.Tutorial.T20;
+import cprogramming.example.cprogramming.test.Tutorial.T21;
+import cprogramming.example.cprogramming.test.Tutorial.T22;
+import cprogramming.example.cprogramming.test.Tutorial.T23;
+import cprogramming.example.cprogramming.test.Tutorial.T24;
+import cprogramming.example.cprogramming.test.Tutorial.T25;
+import cprogramming.example.cprogramming.test.Tutorial.T26;
+import cprogramming.example.cprogramming.test.Tutorial.T3;
+import cprogramming.example.cprogramming.test.Tutorial.T4;
+import cprogramming.example.cprogramming.test.Tutorial.T5;
+import cprogramming.example.cprogramming.test.Tutorial.T6;
+import cprogramming.example.cprogramming.test.Tutorial.T7;
+import cprogramming.example.cprogramming.test.Tutorial.T8;
+import cprogramming.example.cprogramming.test.Tutorial.T9;
+
 public class Tutorials extends AppCompatActivity {
     ListView lv;
 
@@ -177,9 +204,9 @@ public class Tutorials extends AppCompatActivity {
             case R.id.share:
                 Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
                 sharingIntent.setType("text/plain");
-                String shareBody = "This is C Programming App.\nHere, We Easy to Learn C Programming Language.\n" +
+                String shareBody = "This is C Programming App.\nHere, We can Easy to Learn C Programming Language.\n" +
                         "Best Proper Tutorials, 100+ Programs with output, And Many Questions-Answers & Exam Questions also.\n" +
-                        "Download it :-\n" +
+                        "Download it :-\n\n" +
                         "https://play.google.com/store/apps/details?id=cprogramming.example.cprogramming.test";
                 String shareSub = "C Programming App";
                 sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, shareSub);
